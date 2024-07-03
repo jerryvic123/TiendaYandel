@@ -1,0 +1,366 @@
+html{
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f397ee; /* este es el color de fondo */
+}
+
+.img-fondo{
+background-image: url(/IMGTIENDA/tienda.jpg);
+}
+img{
+    width: 100%;
+}
+.velo-negro{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img{
+    max-width: 40rem;
+    margin: 3rem 0;
+}
+
+nav{
+    margin: 3rem 0 8rem 0;
+    background-color: rgba(255, 55, 55, 0.768);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: black;
+}
+
+.nustros-productos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.productos{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+   
+}
+.producto{
+    background-color: rgb(255, 152, 55);;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.producto-blanco{
+    background-color: white;
+    height: 40rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio,
+.producto-nombre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.producto-precio{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.producto-nombre{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.footer{
+    background-color: black;
+    padding: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nosotros{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10rem;
+margin-bottom: 20rem;
+
+}
+.nosotros-texto{
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotros-img{
+    background-color: white;
+    border-radius: 5%;
+}
+
+.bloques{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20rem;
+}
+
+.bloques img{
+    width: 20rem;
+    margin-bottom: 2rem;
+    height: 20rem;
+}
+.bloque-titulo{
+    margin:0;
+}
+
+.bloque{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5rem;
+}
+.bloque-titulo{
+    color: red;
+    font-size: 4rem;
+    margin: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.enlace-footer:hover{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+ /* Estilos generales */
+ .producto {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Efecto de iluminación */
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la barra de busqueda */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #5154eb;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #777;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #339ef7; /* Cambia este color por el que desees */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.logo-img {
+    max-width: 40rem;
+}
+
+nav {
+    margin: 3rem 0 8rem 0;
+    background-color: rgba(231, 120, 253, 0.768);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.nustros-productos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.producto {
+    background-color: rgb(243, 99, 231);
+    margin: 1rem;
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.producto-blanco {
+    background-color: white;
+    height: 20rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio,
+.producto-nombre {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.producto-precio {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.producto-nombre {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.footer {
+    background-color: black;
+    padding: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Estilos para la tabla de productos */
+.tabla-productos {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+}
+
+th {
+    background-color: #5154eb;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+

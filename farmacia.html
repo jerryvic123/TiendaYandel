@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabritas</title>
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Asegúrate de enlazar correctamente tu archivo CSS -->
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <img src="/IMGTIENDA/logo.png" alt="Logo" class="logo-img">
+        </header>
+        <nav>
+            
+            <a href="#">farmacia</a>
+
+            <button onclick="goBack()" style="margin: 20px; padding: 10px 20px; background-color: #36B902; color: white; border: none; border-radius: 5px;">Regresar</button>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+            
+        </nav>
+        <section class="productos-section">
+            <h1 class="nustros-productos">Nuestros Productos</h1>
+            <div class="productos">
+                <div class="producto">
+                    <div class="producto-blanco">
+                        <img src="/IMGTIENDA/producto1.jpg" alt="Producto 1">
+                    </div>
+                    <p class="producto-nombre">paracetamol</p>
+                    <p class="producto-precio">$15.00</p>
+                </div>
+                <div class="producto">
+                    <div class="producto-blanco">
+                        <img src="/IMGTIENDA/producto2.jpg" alt="Producto 2">
+                    </div>
+                    <p class="producto-nombre">aspirina</p>
+                    <p class="producto-precio">$12.00</p>
+                </div>
+                <div class="producto">
+                    <div class="producto-blanco">
+                        <img src="/IMGTIENDA/producto3.jpg" alt="Producto 3">
+                    </div>
+                    <p class="producto-nombre">antibiotico</p>
+                    <p class="producto-precio">$17.00</p>
+                </div>
+            </div>
+        </section>
+        <section class="tabla-productos">
+            <h2>Lista de Productos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Producto 1</td>
+                        <td>Descripción del Producto 1</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto 2</td>
+                        <td>Descripción del Producto 2</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto 3</td>
+                        <td>Descripción del Producto 3</td>
+                        <td>$20.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer class="footer">
+            <p>&copy; 2023 farmacia. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
